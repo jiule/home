@@ -27,6 +27,7 @@
 		184E65BD2117E4EC004CE594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184E65BF2117E4EC004CE594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		184E65C02117E4EC004CE594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8455CB8521181EF6001A182E /* ServerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerConfig.h; sourceTree = "<group>"; };
 		C99BDBA8844E3F0AE684D201 /* Pods-LianbiHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LianbiHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LianbiHome/Pods-LianbiHome.debug.xcconfig"; sourceTree = "<group>"; };
 		D2CA850000310FF5BE4B7676 /* libPods-LianbiHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LianbiHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DABEC9543FE0F1BF91AB5B /* Pods-LianbiHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LianbiHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-LianbiHome/Pods-LianbiHome.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,8 +68,10 @@
 			children = (
 				184E65B12117E4E9004CE594 /* AppDelegate.h */,
 				184E65B22117E4E9004CE594 /* AppDelegate.m */,
+				8455CB8521181EF6001A182E /* ServerConfig.h */,
 				184E65B42117E4E9004CE594 /* ViewController.h */,
 				184E65B52117E4E9004CE594 /* ViewController.m */,
+				8455CB8621182A61001A182E /* network */,
 				184E65B72117E4E9004CE594 /* Main.storyboard */,
 				184E65BA2117E4EC004CE594 /* Assets.xcassets */,
 				184E65BC2117E4EC004CE594 /* LaunchScreen.storyboard */,
@@ -85,6 +88,13 @@
 				E7DABEC9543FE0F1BF91AB5B /* Pods-LianbiHome.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8455CB8621182A61001A182E /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
 		CA89789B46AAC031F8448FC6 /* Frameworks */ = {
@@ -352,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89V237G3A9;
 				INFOPLIST_FILE = LianbiHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -369,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89V237G3A9;
 				INFOPLIST_FILE = LianbiHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
