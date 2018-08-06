@@ -1,0 +1,2 @@
+# KJScrollViewManager
+类似微博个人主页效果解决方案之一

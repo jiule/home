@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B765ECC83D645D35B8870321B35C0A5"
-               BlueprintName = "SDWebImage"
+               BlueprintIdentifier = "D39FFE91893261D6741EC35051905596"
+               BlueprintName = "KJScrollViewManager"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libSDWebImage.a">
+               BuildableName = "libKJScrollViewManager.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
