@@ -7,22 +7,27 @@
 //
 
 #import "ViewController.h"
+#import "DWSearchBarView.h"
+#import "DwTableView.h"
 
-@interface ViewController ()
+@interface ViewController () <DWSearchBarViewDelegate,DwTableViewDelegate,DwTableViewCellDelegate>
+
+@property(nonatomic,retain)DwTableView * tableView;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+-(void)createView
+{
+    DwTableView * tableView = [DwTableView initWithFrame:CGRectMake(0, self.nav_h, SCREEN_WIDTH, SCREEN_HEIGHT - self.nav_h) url:URL(@"s=home/App/zx_list") modelName:@"" cellName:@"" delegate:self];
+    [self.view addSubview:[tableView readTableView]];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)downWithPage:(int)page
+{
+     
 }
 
 

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  InformationView.h
 //  LianbiHome
 //
 //  Created by Apple on 2018/8/6.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
 
-@interface ViewController : BaseViewController
-
+@interface InformationView : UIView
 
 @end
-
