@@ -9,4 +9,5 @@ target 'LianbiHome' do
 	pod 'UMCShare/Social/DingDing'
 	pod 'SDWebImage', '~> 4.0'
         pod 'AFNetworking', '~> 3.0'
+        pod 'MJRefresh'
 end
